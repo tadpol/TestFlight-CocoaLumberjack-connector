@@ -11,15 +11,14 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "A connector for TestFlight to CocoaLumberjack."
   s.description  =  "A connector for TestFlight to CocoaLumberjack."
-  s.homepage     = "http://EXAMPLE/TestFlight-CocoaLumberjack-connector"
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.homepage     = "https://github.com/tadpol/TestFlight-CocoaLumberjack-connector"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "Michael Conrad Tadpol Tilstra" => "tadpol@tadpol.org" }
   s.social_media_url   = "http://twitter.com/tadpol"
 
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "http://EXAMPLE/TestFlight-CocoaLumberjack-connector.git",
+  s.source       = { :git => "https://github.com/tadpol/TestFlight-CocoaLumberjack-connector.git",
                      :tag => "0.0.1" }
   s.source_files  = "TADTestFlightLogger.{h,m}"
   s.public_header_files = "TADTestFlightLogger.h"
