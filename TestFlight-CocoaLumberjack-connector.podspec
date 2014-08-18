@@ -10,7 +10,12 @@ Pod::Spec.new do |s|
   s.name         = "TestFlight-CocoaLumberjack-connector"
   s.version      = "0.0.2"
   s.summary      = "A connector for TestFlight to CocoaLumberjack."
-  s.description  =  "A connector for TestFlight to CocoaLumberjack."
+  s.description  = <<-DESC
+                   A connector for TestFlight to CocoaLumberjack.
+
+                   Pretty simple.
+
+                   DESC
   s.homepage     = "https://github.com/tadpol/TestFlight-CocoaLumberjack-connector"
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
