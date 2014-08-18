@@ -6,6 +6,7 @@
 //
 
 #import "TADTestFlightLogger.h"
+#import <TestFlight.h>
 
 @implementation TADTestFlightLogger {
     NSDateFormatter *_dateFmt;
